@@ -1,18 +1,1119 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Turismo Inteligente</title>
-    <link rel="stylesheet" href="css/estilo.css">
 
-    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-    <script src="js/acao.js" charset="utf-8"></script>
-  </head>
-  <body>
-        <dl class="navbar">
-          <dd class="nav1">Mapa</dd>
-          <dd class="nav2">Serviços</dd>
-          <dd class="nav3">Eventos</dd>
-        </dl>
-  </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="css/principal.css">
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <style>
+
+
+
+    </style>
+</head>
+
+<body style="background-color: black">
+    <div class="container">
+      <div class="pocoDasAntas">
+        <center>
+          <img onclick="movimentoPoco()" width="100" height="100" src="img/Poço das Antas.png" class="pocoAnta">
+        </center>
+      </div>
+      <div class="avenida1">
+
+      </div>
+      <div class="sorveteria">
+        <center>
+        </center>
+      </div>
+      <div class="santa">
+      <center>
+        <img onclick="movimentoSanta()" width="100" height="100" src="img/santa.png" class="mongaSanta">
+      </center>
+      </div>
+      <div class="hotel1">
+        <center>
+
+        </center>
+      </div>
+      <div class="restaurante1">
+        <center>
+
+        </center>
+      </div>
+
+      <div class="pracinha">
+        <center>
+          <img onclick="movimentoFeirinha()" width="100" height="100" src="img/Feirinha.png" class="feirinha">
+        </center>
+      </div>
+      <div class="hotel2">
+        <center>
+
+        </center>
+      </div>
+      <div class="pracaDuduSamba">
+      </div>
+      <div class="restaurante2">
+        <center>
+
+        </center>
+      </div>
+
+      <div class="hotel3">
+        <center>
+
+        </center>
+      </div>
+      <div class="hotel4">
+        <center>
+
+        </center>
+      </div>
+      <div class="hotel5">
+        <center>
+        </center>
+      </div>
+      <div class="plataformaPesca">
+        <center>
+          <img onclick="movimentoPlataformaPesca()" width="100" height="100" src="img/Arquibancada do pescador.png" class="pescaPlat">
+        </center>
+      </div>
+
+      <div class="nulo1">
+
+      </div>
+      <div class="nulo2">
+
+      </div>
+
+      <div class="nulo3">
+
+      </div>
+      <div class="nulo4">
+
+      </div>
+      <div class="nulo5">
+
+      </div>
+      <div class="nulo6">
+
+      </div>
+
+      <div class="nulo7">
+
+      </div>
+      <div class="nulo8">
+
+      </div>
+      <div class="nulo9">
+
+      </div>
+      <div class="nulo10">
+
+      </div>
+
+      <div class="nulo11">
+
+      </div>
+      <div class="nulo12">
+
+      </div>
+      <div class="nulo13">
+
+      </div>
+      <div class="nulo14">
+
+      </div>
+      <div class="nulo15">
+
+      </div>
+      <div class="nulo16">
+
+      </div>
+      <div class="nulo17">
+
+      </div>
+      <div class="nulo18">
+
+      </div>
+      <div class="nulo19">
+
+      </div>
+      <div class="nulo20">
+
+      </div>
+      <div class="nulo21">
+
+      </div>
+      <div class="nulo22">
+
+      </div>
+      <div class="nulo23">
+
+      </div>
+      <div class="nulo24">
+
+      </div>
+      <div id="rua32"class="rua1Part2">
+
+      </div>
+      <div class="rua1Part3">
+
+      </div>
+      <div class="rua1Part4">
+
+      </div>
+      <div class="rua1Part5">
+
+      </div>
+      <div class="rua1Part6">
+
+      </div>
+      <div class="rua1Part7">
+
+      </div>
+      <div class="rua1Part8">
+
+      </div>
+      <div class="rua1Part9">
+
+      </div>
+      <div class="rua1Part10">
+
+      </div>
+      <div class="rua1Part11">
+
+      </div>
+      <div class="rua1Part12">
+
+      </div>
+      <div class="rua1Part13">
+
+      </div>
+      <div class="avenida2">
+
+      </div>
+      <div class="avenida3">
+
+      </div>
+      <div id="rua1" class="avenida4Part1" style="background-color: black">
+
+      </div>
+      <div id="rua2" class="avenida4Part2">
+
+      </div>
+      <div id="rua3" class="avenida4Part3">
+
+      </div>
+      <div id="rua4" class="avenida4Part4">
+
+      </div>
+      <div id="rua5" class="avenida4Part5">
+
+      </div>
+      <div id="rua6" class="avenida4Part6">
+
+      </div>
+      <div class="avenida4Part7">
+
+      </div>
+      <div class="avenida4Part8">
+
+      </div>
+      <div class="avenida4Part9">
+
+      </div>
+      <div class="avenida4Part10">
+
+      </div>
+      <div class="avenida4Part11">
+
+      </div>
+      <div id="rua16" class="avenida4Part12">
+
+      </div>
+      <div class="avenida4Part13">
+
+      </div>
+      <div class="areiaPraia">
+
+      </div>
+      <div class="aguaRasa">
+
+      </div>
+      <div class="aguaProfunda">
+
+      </div>
+      <div class="aguaProfunda">
+
+      </div>
+      <div class="aguaProfunda">
+
+      </div>
+      <div id="rua35" class="rua2Part1">
+
+      </div>
+      <div id="rua34"class="rua2Part2">
+
+      </div>
+      <div id="rua33" class="rua2Part3">
+
+      </div>
+      <div id="rua31" class="rua2Part4">
+
+      </div>
+      <div id="rua30" class="rua2Part5">
+
+      </div>
+      <div class="rua2Part6">
+
+      </div>
+      <div class="rua2Part7">
+
+      </div>
+      <div class="rua2Part8">
+
+      </div>
+      <div id="rua28" class="rua2Part9">
+
+      </div>
+      <div class="mato2">
+
+      </div>
+      <div class="avenidaPart1">
+
+      </div>
+      <div class="avenidaPart2">
+
+      </div>
+      <div class="avenidaPart3">
+
+      </div>
+      <div class="avenidaPart4">
+
+      </div>
+      <div class="avenidaPart5">
+
+      </div>
+      <div class="avenidaPart6">
+
+      </div>
+      <div class="avenidaPart6">
+
+      </div>
+      <div class="avenidaPart7">
+
+      </div>
+      <div class="avenidaPart8">
+
+      </div>
+      <div class="avenidaPart9">
+
+      </div>
+      <div class="avenidaPart10">
+
+      </div>
+      <div class="avenidaPart11">
+
+      </div>
+      <div class="avenida2Part1">
+
+      </div>
+      <div class="avenida2Part2">
+
+      </div>
+      <div class="avenida2Part3">
+
+      </div>
+      <div class="avenida2Part4">
+
+      </div>
+      <div id="rua8" class="avenida2Part5">
+
+      </div>
+      <div id="rua9" class="avenida2Part6">
+
+      </div>
+      <div id="rua10" class="avenida2Part7">
+
+      </div>
+      <div id="rua11" class="avenida2Part8">
+
+      </div>
+      <div id="rua12" class="avenida2Part9">
+
+      </div>
+      <div id="rua13" class="avenida2Part10">
+
+      </div>
+      <div id="rua14" class="avenida2Part11">
+
+      </div>
+      <div class="avenida2Part12">
+
+      </div>
+      <div class="avenida3Part1">
+
+      </div>
+      <div class="avenida3Part2">
+
+      </div>
+      <div class="avenida3Part3">
+
+      </div>
+      <div class="avenida3Part4">
+
+      </div>
+      <div class="avenida3Part5">
+
+      </div>
+      <div class="avenida3Part6">
+
+      </div>
+      <div class="avenida3Part7">
+
+      </div>
+      <div class="avenida3Part8">
+
+      </div>
+      <div class="avenida3Part9">
+
+      </div>
+      <div class="avenida3Part10">
+
+      </div>
+      <div class="avenida3Part11">
+
+      </div>
+      <div id="rua27" class="avenida1Part1">
+
+      </div>
+      <div id="rua26" class="avenida1Part2">
+
+      </div>
+      <div id="rua25" class="avenida1Part3">
+
+      </div>
+      <div id="rua24" class="avenida1Part4">
+
+      </div>
+      <div id="rua23" class="avenida1Part5">
+
+      </div>
+      <div id="rua22" class="avenida1Part6">
+
+      </div>
+      <div id="rua21" class="avenida1Part7">
+
+      </div>
+      <div id="rua20" class="avenida1Part8">
+
+      </div>
+      <div id="rua19" class="avenida1Part9">
+
+      </div>
+      <div id="rua18" class="avenida1Part10">
+
+      </div>
+      <div class="avenida1Part11">
+
+      </div>
+      <div id="rua29" class="avenida1Part12">
+
+      </div>
+      <div class="interseção1">
+
+      </div>
+      <div class="interseção2">
+
+      </div>
+      <div class="interseção3">
+
+      </div>
+      <div class="interseção4">
+
+      </div>
+      <div class="interseção5">
+
+      </div>
+      <div class="interseção6">
+
+      </div>
+      <div class="interseção7">
+
+      </div>
+      <div class="interseção8">
+
+      </div>
+      <div class="interseção9">
+
+      </div>
+      <div id="rua7" class="interseção10">
+
+      </div>
+      <div class="interseção11">
+
+      </div>
+      <div class="interseção12">
+
+      </div>
+      <div class="interseção13">
+
+      </div>
+      <div class="interseção14">
+
+      </div>
+      <div class="interseção15">
+
+      </div>
+      <div class="interseção16">
+
+      </div>
+      <div class="interseção17">
+
+      </div>
+      <div class="interseção18">
+
+      </div>
+      <div class="interseção19">
+
+      </div>
+      <div class="interseção20">
+
+      </div>
+      <div class="interseção21">
+
+      </div>
+      <div class="interseção22">
+
+      </div>
+      <div class="interseção23">
+
+      </div>
+      <div id="rua17" class="interseção24">
+
+      </div>
+      <div id="rua15" class="interseção25">
+
+      </div>
+
+    </div>
+    <script>
+    var feirinha = $('.feirinha').show();
+    var contador = false;
+
+  function movimentoSanta() {
+    var rua1 = document.getElementById("rua1");
+    var rua2 = document.getElementById("rua2");
+    var height = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (height >= 100) {
+        $('.plataformaPesca').css('background-color', 'lightgreen');
+        $('.pescaPlat').show();
+        clearInterval(id);
+
+
+      } else {
+        height++;
+        if(contador == false){
+          rua1.style.background = 'red';
+          rua1.style.height = height + '%';
+        }
+      }
+    }
+  }
+
+  function movimentoPlataformaPesca() {
+
+    setTimeout(Rua2, 500);
+    setTimeout(Rua3, 1000);
+    setTimeout(Rua5, 1500);
+    setTimeout(Rua6, 2000);
+    setTimeout(Rua7, 2500);
+    setTimeout(Rua8, 3000);
+    setTimeout(Rua9, 3500);
+    setTimeout(Rua10, 4000);
+    setTimeout(Rua11, 4500);
+    setTimeout(Rua12, 5000);
+    setTimeout(Rua13, 5500);
+    setTimeout(Rua14, 6000);
+    setTimeout(Rua15, 6500);
+    setTimeout(Feirinha, 7000);
+
+  function Rua2(){
+    var rua2 = document.getElementById("rua2");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua2.style.background = 'red';
+        rua2.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Feirinha (){
+    $('.feirinha').show();
+    $('.pracinha').css('background-color', 'lightgreen');
+  }
+
+  function Rua3(){
+    var rua3 = document.getElementById("rua3");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua3.style.background = 'red';
+        rua3.style.height = height + '%';
+
+      }
+    }
+  }
+
+
+  function Rua5(){
+    var rua5 = document.getElementById("rua5");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua6(){
+    var rua5 = document.getElementById("rua6");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua7(){
+    var rua5 = document.getElementById("rua7");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua8(){
+    var rua5 = document.getElementById("rua8");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+    function Rua9(){
+      var rua5 = document.getElementById("rua9");
+      var height = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (height >= 100) {
+          clearInterval(id);
+        } else {
+          height++;
+          rua5.style.background = 'red';
+          rua5.style.height = height + '%';
+
+        }
+      }
+    }
+
+    function Rua10(){
+      var rua5 = document.getElementById("rua10");
+      var height = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (height >= 100) {
+          clearInterval(id);
+        } else {
+          height++;
+          rua5.style.background = 'red';
+          rua5.style.height = height + '%';
+
+        }
+      }
+    }
+
+    function Rua11(){
+      var rua5 = document.getElementById("rua11");
+      var height = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (height >= 100) {
+          clearInterval(id);
+        } else {
+          height++;
+          rua5.style.background = 'red';
+          rua5.style.height = height + '%';
+
+        }
+      }
+    }
+
+    function Rua12(){
+      var rua5 = document.getElementById("rua12");
+      var height = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (height >= 100) {
+          clearInterval(id);
+        } else {
+          height++;
+          rua5.style.background = 'red';
+          rua5.style.height = height + '%';
+
+        }
+      }
+    }
+
+    function Rua13(){
+      var rua5 = document.getElementById("rua13");
+      var height = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (height >= 100) {
+          clearInterval(id);
+        } else {
+          height++;
+          rua5.style.background = 'red';
+          rua5.style.height = height + '%';
+
+        }
+      }
+    }
+
+    function Rua14(){
+      var rua5 = document.getElementById("rua14");
+      var height = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (height >= 100) {
+          clearInterval(id);
+        } else {
+          height++;
+          rua5.style.background = 'red';
+          rua5.style.height = height + '%';
+
+        }
+      }
+    }
+
+    function Rua15(){
+      var rua5 = document.getElementById("rua15");
+      var height = 0;
+      var id = setInterval(frame, 5);
+      function frame() {
+        if (height >= 100) {
+          clearInterval(id);
+        } else {
+          height++;
+          rua5.style.background = 'red';
+          rua5.style.width = height + '%';
+
+        }
+      }
+    }
+  }
+function movimentoFeirinha(){
+  setTimeout(Rua16, 500);
+  setTimeout(Rua17, 1000);
+  setTimeout(Rua18, 1500);
+  setTimeout(Rua19, 2000);
+  setTimeout(Rua20, 2500);
+  setTimeout(Rua21, 3000);
+  setTimeout(Rua22, 3500);
+  setTimeout(Rua23, 4000);
+  setTimeout(Rua24, 4500);
+  setTimeout(Rua25, 5000);
+  setTimeout(PocoAnta1, 5500);
+
+  function Rua16(){
+    var rua5 = document.getElementById("rua16");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function PocoAnta1(){
+    $('.pocoAnta').show();
+    $('.pocoDasAntas').css('background-color', 'lightgreen');
+  }
+
+  function Rua17(){
+    var rua5 = document.getElementById("rua17");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua18(){
+    var rua5 = document.getElementById("rua18");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua19(){
+    var rua5 = document.getElementById("rua19");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua20(){
+    var rua5 = document.getElementById("rua20");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua21(){
+    var rua5 = document.getElementById("rua21");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua22(){
+    var rua5 = document.getElementById("rua22");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua23(){
+    var rua5 = document.getElementById("rua23");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua24(){
+    var rua5 = document.getElementById("rua24");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua25(){
+    var rua5 = document.getElementById("rua25");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+}
+
+function movimentoPoco(){
+  setTimeout(Rua27, 500);
+  setTimeout(Rua28, 1000);
+  setTimeout(Rua29, 1500);
+  setTimeout(Rua30, 2000);
+  setTimeout(Rua31, 2500);
+  setTimeout(Rua32, 3000);
+  setTimeout(Rua33, 3500);
+  setTimeout(Rua34, 4000);
+  setTimeout(Rua35, 4500);
+
+
+  function Rua27(){
+    var rua5 = document.getElementById("rua27");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua28(){
+    var rua5 = document.getElementById("rua28");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+
+        rua5.style.height = height + '%';
+
+      }
+    }
+  }
+
+  function Rua29(){
+    var rua5 = document.getElementById("rua29");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua30(){
+    var rua5 = document.getElementById("rua30");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua31(){
+    var rua5 = document.getElementById("rua31");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua32(){
+    var rua5 = document.getElementById("rua32");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua33(){
+    var rua5 = document.getElementById("rua33");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua34(){
+    var rua5 = document.getElementById("rua34");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+  function Rua35(){
+    var rua5 = document.getElementById("rua35");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 100) {
+        clearInterval(id);
+      } else {
+        height++;
+        rua5.style.background = 'red';
+        rua5.style.width = height + '%';
+
+      }
+    }
+  }
+
+}
+
+      $(document).ready(function(){
+
+        $('.mongaSanta').show();
+        $('.pescaPlat').hide();
+        $('.feirinha').hide();
+        $('.pocoAnta').hide();
+
+
+      });
+
+
+
+    </script>
+
+
+
+</body>
+
 </html>

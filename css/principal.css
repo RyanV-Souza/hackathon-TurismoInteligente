@@ -1,0 +1,774 @@
+.container {
+    display: grid;
+    grid-template-columns:  1.5fr 0.3fr 1.5fr 0.3fr 1.5fr 0.3fr 1.5fr 0.3fr 4fr 0.3fr 1.5fr 0.3fr 0.5fr 0.4fr 0.3fr;
+    grid-template-rows: 12vh 3vh 12vh 3vh 12vh 2vh 12vh 2vh 12vh 2vh 12vh 2vh 12vh;
+}
+.mato2{
+    grid-column: 1/2;
+    grid-row: 3/14;
+    background: green;
+}
+.avenida1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: black;
+}
+
+.rua1Part2{
+    grid-column: 4/5;
+    grid-row: 2/2;
+    background: black;
+}
+.rua1Part3{
+    grid-column: 4/5;
+    grid-row: 3/3;
+    background: black;
+}
+.rua1Part4{
+    grid-column: 4/5;
+    grid-row: 4/4;
+    background: black;
+}
+.rua1Part5{
+    grid-column: 4/5;
+    grid-row: 5/5;
+    background: black;
+}
+.rua1Part6{
+    grid-column: 4/5;
+    grid-row: 6/6;
+    background: black;
+}
+.rua1Part7{
+    grid-column: 4/5;
+    grid-row: 7/7;
+    background: black;
+}
+.rua1Part8{
+    grid-column: 4/5;
+    grid-row: 8/8;
+    background: black;
+}
+.rua1Part9{
+    grid-column: 4/5;
+    grid-row: 9/9;
+    background: black;
+}
+.rua1Part10{
+    grid-column: 4/5;
+    grid-row: 10/10;
+    background: black;
+}
+.rua1Part11{
+    grid-column: 4/5;
+    grid-row: 11/11;
+    background: black;
+}
+.rua1Part12{
+    grid-column: 4/5;
+    grid-row: 12/12;
+    background: black;
+}
+.rua1Part13{
+    grid-column: 4/5;
+    grid-row: 13/13;
+    background: black;
+}
+.sorveteria{
+    grid-column: 7/8;
+    grid-row: 1/2;
+    background: gray;
+}
+.avenida2{
+    grid-column: 6/7;
+    grid-row: 1/2;
+    background: black;
+}
+.avenida3{
+    grid-column: 8/9;
+    grid-row: 1/2;
+    background: black;
+}
+
+.areiaPraia{
+    grid-column: 13/14;
+    grid-row: 1/14;
+    background: lightyellow;
+}
+.aguaRasa{
+    grid-column: 14/15;
+    grid-row: 1/14;
+    background: lightblue;
+}
+.aguaProfunda{
+    grid-column: 15/16;
+    grid-row: 1/14;
+    background: blue;
+}
+.rua2Part1{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    background: black;
+}
+.rua2Part2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background: black;
+}
+.rua2Part3{
+    grid-column: 3/3;
+    grid-row: 2/2;
+    background: black;
+}
+.rua2Part4{
+    grid-column: 5/5;
+    grid-row: 2/2;
+    background: black;
+}
+
+.rua2Part5{
+    grid-column: 7/7;
+    grid-row: 2/2;
+    background: black;
+}
+.rua2Part6{
+    grid-column: 9/9;
+    grid-row: 2/2;
+    background: black;
+}
+.rua2Part7{
+    grid-column: 11/11;
+    grid-row: 2/2;
+    background: black;
+}
+.rua2Part8{
+    grid-column: 12/12;
+    grid-row: 2/2;
+    background: black;
+}
+.rua2Part9{
+    grid-column: 8/8;
+    grid-row: 2/2;
+    background: black;
+}
+
+
+
+/* Avenidas */
+
+.avenidaPart1{
+    grid-column: 2/2;
+    grid-row: 3/3;
+    background: black;
+}
+.avenidaPart2{
+    grid-column: 2/2;
+    grid-row: 4/4;
+    background: black;
+}
+.avenidaPart3{
+    grid-column: 2/2;
+    grid-row: 5/5;
+    background: black;
+}
+.avenidaPart4{
+    grid-column: 2/2;
+    grid-row: 6/6;
+    background: black;
+}
+.avenidaPart5{
+    grid-column: 2/2;
+    grid-row: 7/7;
+    background: black;
+}
+.avenidaPart6{
+    grid-column: 2/2;
+    grid-row: 8/8;
+    background: black;
+}
+.avenidaPart7{
+    grid-column: 2/2;
+    grid-row: 9/9;
+    background: black;
+}
+.avenidaPart8{
+    grid-column: 2/2;
+    grid-row: 10/10;
+    background: black;
+}
+.avenidaPart9{
+    grid-column: 2/2;
+    grid-row: 11/11;
+    background: black;
+}
+.avenidaPart10{
+    grid-column: 2/2;
+    grid-row: 12/12;
+    background: black;
+}
+.avenidaPart11{
+    grid-column: 2/2;
+    grid-row: 13/13;
+    background: black;
+}
+
+.avenida1Part1{
+    grid-column: 8/9;
+    grid-row: 3/3;
+    background: black;
+}
+.avenida1Part2{
+    grid-column: 8/9;
+    grid-row: 4/4;
+    background: lightgrey;
+}
+.avenida1Part3{
+    grid-column: 8/9;
+    grid-row: 5/5;
+    background: black;
+}
+.avenida1Part4{
+    grid-column: 8/9;
+    grid-row: 6/6;
+    background: black;
+}
+.avenida1Part5{
+    grid-column: 8/9;
+    grid-row: 7/7;
+    background: black;
+}
+.avenida1Part6{
+    grid-column: 8/9;
+    grid-row: 8/8;
+    background: black;
+}
+.avenida1Part7{
+    grid-column: 8/9;
+    grid-row: 9/9;
+    background: black;
+}
+.avenida1Part8{
+    grid-column: 8/9;
+    grid-row: 10/10;
+    background: black;
+}
+.avenida1Part9{
+    grid-column: 8/9;
+    grid-row: 11/11;
+    background: black;
+}
+.avenida1Part10{
+    grid-column: 8/9;
+    grid-row: 12/12;
+    background: black;
+}
+.avenida1Part11{
+    grid-column: 8/9;
+    grid-row: 13/13;
+    background: black;
+}
+
+.avenida2Part1{
+    grid-column: 12/13;
+    grid-row: 1/2;
+    background: black;
+}
+.avenida2Part2{
+    grid-column: 12/13;
+    grid-row: 3/3;
+    background: black;
+}
+.avenida2Part3{
+    grid-column: 12/13;
+    grid-row: 4/5;
+    background: lightgrey;
+}
+.avenida2Part4{
+    grid-column: 12/13;
+    grid-row: 5/6;
+    background: black;
+}
+.avenida2Part5{
+    grid-column: 12/13;
+    grid-row: 6/7;
+    background: black;
+}
+.avenida2Part6{
+    grid-column: 12/13;
+    grid-row: 7/8;
+    background: black;
+}
+.avenida2Part7{
+    grid-column: 12/13;
+    grid-row: 8/9;
+    background: black;
+}
+.avenida2Part8{
+    grid-column: 12/13;
+    grid-row: 9/10;
+    background: black;
+}
+.avenida2Part9{
+    grid-column: 12/13;
+    grid-row: 10/11;
+    background: black;
+}
+.avenida2Part10{
+    grid-column: 12/13;
+    grid-row: 11/12;
+    background: black;
+}
+.avenida2Part11{
+    grid-column: 12/13;
+    grid-row: 12/13;
+    background: black;
+}
+.avenida2Part12{
+    grid-column: 12/13;
+    grid-row: 13/14;
+    background: black;
+}
+
+.avenida3Part1{
+    grid-column: 6/7;
+    grid-row: 3/3;
+    background: black;
+}
+.avenida3Part2{
+    grid-column: 6/7;
+    grid-row: 4/4;
+    background: black;
+}
+.avenida3Part3{
+    grid-column: 6/7;
+    grid-row: 5/5;
+    background: black;
+}
+.avenida3Part4{
+    grid-column: 6/7;
+    grid-row: 6/6;
+    background: black;
+}
+.avenida3Part5{
+    grid-column: 6/7;
+    grid-row: 7/7;
+    background: black;
+}
+.avenida3Part6{
+    grid-column: 6/7;
+    grid-row: 8/8;
+    background: black;
+}
+.avenida3Part7{
+    grid-column: 6/7;
+    grid-row: 9/9;
+    background: black;
+}
+.avenida3Part8{
+    grid-column: 6/7;
+    grid-row: 10/10;
+    background: black;
+}
+.avenida3Part9{
+    grid-column: 6/7;
+    grid-row: 11/11;
+    background: black;
+}
+.avenida3Part10{
+    grid-column: 6/7;
+    grid-row: 12/12;
+    background: black;
+}
+.avenida3Part11{
+    grid-column: 6/7;
+    grid-row: 13/13;
+    background: black;
+}
+
+.avenida4Part1{
+    grid-column: 10/11;
+    grid-row: 1/2;
+    background: black;
+}
+.avenida4Part2{
+    grid-column: 10/11;
+    grid-row: 2/2;
+    background: black;
+}
+.avenida4Part3{
+    grid-column: 10/11;
+    grid-row: 3/3;
+    background: black;
+}
+.avenida4Part4{
+    grid-column: 10/11;
+    grid-row: 4/4;
+    background: lightgrey;
+}
+.avenida4Part5{
+    grid-column: 10/11;
+    grid-row: 5/5;
+    background: black;
+}
+.avenida4Part6{
+    grid-column: 10/11;
+    grid-row: 6/6;
+    background: black;
+}
+.avenida4Part7{
+    grid-column: 10/11;
+    grid-row: 7/7;
+    background: black;
+}
+.avenida4Part8{
+    grid-column: 10/11;
+    grid-row: 8/8;
+    background: black;
+}
+.avenida4Part9{
+    grid-column: 10/11;
+    grid-row: 9/9;
+    background: black;
+}
+.avenida4Part10{
+    grid-column: 10/11;
+    grid-row: 10/10;
+    background: black;
+}
+.avenida4Part11{
+    grid-column: 10/11;
+    grid-row: 11/11;
+    background: black;
+}
+.avenida4Part12{
+    grid-column: 10/11;
+    grid-row: 12/12;
+    background: black;
+}
+.avenida4Part13{
+    grid-column: 10/11;
+    grid-row: 13/13;
+    background: black;
+}
+
+/* Interseções */
+
+.interseção1{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background: black;
+}
+.interseção2{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    background: black;
+}
+.interseção3{
+    grid-column: 7/8;
+    grid-row: 4/5;
+    background: black;
+}
+.interseção4{
+    grid-column: 9/10;
+    grid-row: 4/5;
+    background: lightblue;
+}
+.interseção5{
+    grid-column: 11/12;
+    grid-row: 4/5;
+    background: lightblue;
+}
+.interseção6{
+    grid-column: 3/4;
+    grid-row: 6/7;
+    background: black;
+}
+.interseção7{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    background: black;
+}
+.interseção8{
+    grid-column: 7/8;
+    grid-row: 6/7;
+    background: black;
+}
+.interseção9{
+    grid-column: 9/10;
+    grid-row: 6/7;
+    background: black;
+}
+.interseção10{
+    grid-column: 11/12;
+    grid-row: 6/7;
+    background: black;
+}
+.interseção11{
+    grid-column: 3/4;
+    grid-row: 8/9;
+    background: black;
+}
+.interseção12{
+    grid-column: 5/6;
+    grid-row: 8/9;
+    background: black;
+}
+.interseção13{
+    grid-column: 7/8;
+    grid-row: 8/9;
+    background: black;
+}
+.interseção14{
+    grid-column: 9/10;
+    grid-row: 8/9;
+    background: black;
+}
+.interseção15{
+    grid-column: 11/12;
+    grid-row: 8/9;
+    background: black;
+}
+.interseção16{
+    grid-column: 3/4;
+    grid-row: 10/11;
+    background: black;
+}
+.interseção17{
+    grid-column: 5/6;
+    grid-row: 10/11;
+    background: black;
+}
+.interseção18{
+    grid-column: 7/8;
+    grid-row: 10/11;
+    background: black;
+}
+.interseção19{
+    grid-column: 9/10;
+    grid-row: 10/11;
+    background: black;
+}
+.interseção20{
+    grid-column: 11/12;
+    grid-row: 10/11;
+    background: black;
+}
+.interseção21{
+    grid-column: 3/4;
+    grid-row: 12/13;
+    background: black;
+}
+.interseção22{
+    grid-column: 5/6;
+    grid-row: 12/13;
+    background: black;
+}
+.interseção23{
+    grid-column: 7/8;
+    grid-row: 12/13;
+    background: black;
+}
+.interseção24{
+    grid-column: 9/10;
+    grid-row: 12/13;
+    background: black;
+}
+.interseção25{
+    grid-column: 11/12;
+    grid-row: 12/13;
+    background: black;
+}
+
+/* Nulos */
+
+.nulo1{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: gray;
+}
+
+.nulo2{
+    grid-column: 4/5;
+    grid-row: 1/1;
+    background: gray;
+}
+.nulo3{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background: gray;
+}
+.nulo4{
+    grid-column: 9/10;
+    grid-row: 1/2;
+    background: gray;
+}
+.nulo5{
+    grid-column: 7/8;
+    grid-row: 3/4;
+    background: gray;
+}
+.nulo6{
+    grid-column: 9/10;
+    grid-row: 3/4;
+    background: gray;
+}
+.nulo7{
+    grid-column: 11/12;
+    grid-row: 3/4;
+    background: gray;
+}
+.nulo8{
+    grid-column: 11/12;
+    grid-row: 5/6;
+    background: gray;
+}
+.nulo9{
+    grid-column: 3/4;
+    grid-row: 5/6;
+    background: gray;
+}
+.nulo10{
+    grid-column: 5/6;
+    grid-row: 5/6;
+    background: gray;
+}
+.nulo11{
+    grid-column: 7/8;
+    grid-row: 5/6;
+    background: gray;
+}
+.nulo12{
+    grid-column: 3/4;
+    grid-row: 7/8;
+    background: gray;
+}
+.nulo13{
+    grid-column: 7/8;
+    grid-row: 7/8;
+    background: gray;
+}
+.nulo14{
+    grid-column: 11/12;
+    grid-row: 7/8;
+    background: gray;
+}
+.nulo15{
+    grid-column: 3/4;
+    grid-row: 9/10;
+    background: gray;
+}
+.nulo16{
+    grid-column: 9/10;
+    grid-row: 9/10;
+    background: gray;
+}
+.nulo17{
+    grid-column: 3/4;
+    grid-row: 11/12;
+    background: gray;
+}
+.nulo18{
+    grid-column: 5/6;
+    grid-row: 11/12;
+    background: gray;
+}
+.nulo19{
+    grid-column: 7/8;
+    grid-row: 11/12;
+    background: gray;
+}
+.nulo20{
+    grid-column: 9/10;
+    grid-row: 11/12;
+    background: gray;
+}
+.nulo21{
+    grid-column: 11/12;
+    grid-row: 11/12;
+    background: gray;
+}
+.nulo22{
+    grid-column: 3/4;
+    grid-row: 13/14;
+    background: gray;
+}
+.nulo23{
+    grid-column: 7/8;
+    grid-row: 13/14;
+    background: gray;
+}
+.nulo24{
+    grid-column: 11/12;
+    grid-row: 9/10;
+    background: gray;
+}
+
+
+/* Quarteirões Turisticos */
+
+.santa{
+    grid-column: 11/12;
+    grid-row: 1/2;
+    background: lightgreen;
+}
+
+.pocoDasAntas{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: grey;
+}
+
+.hotel1{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background: gray;
+}
+
+.restaurante1{
+    grid-column: 5/6;
+    grid-row: 3/4;
+    background: gray;
+}
+.pracinha{
+    grid-column: 9/10;
+    grid-row: 5/6;
+    background: grey;
+}
+.hotel2{
+    grid-column: 5/6;
+    grid-row: 7/8;
+    background: gray;
+}
+.pracaDuduSamba{
+    grid-column: 10/9;
+    grid-row: 7/8;
+    background: gray;
+}
+.restaurante2{
+    grid-column: 5/6;
+    grid-row: 9/10;
+    background: gray;
+}
+.hotel3{
+    grid-column: 7/8;
+    grid-row: 9/10;
+    background: gray;
+}
+.hotel4{
+    grid-column: 5/6;
+    grid-row: 13/14;
+    background: gray;
+}
+.hotel5{
+    grid-column: 9/10;
+    grid-row: 13/14;
+    background: gray;
+}
+.plataformaPesca{
+    grid-column: 11/12;
+    grid-row: 13/14;
+    background: grey;
+}
+
+
+}
