@@ -4,10 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy"
-        content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/principal.css">
     <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/acao.js" charset="utf-8"></script>
+
     <style>
 
 
@@ -16,7 +19,7 @@
 </head>
 
 <body style="background-color: black">
-    <div class="container">
+    <div class="container1">
       <div class="pocoDasAntas">
         <center>
           <img onclick="movimentoPoco()" width="100" height="100" src="img/Poço das Antas.png" class="pocoAnta">
@@ -1113,6 +1116,29 @@ function movimentoPoco(){
     </script>
 
 
+    <!-- Modal Santa !-->
+    <div class="modal fade" id="modalSanta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; font-family: 'Bebas'; font-size: 24px">Santa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img src="img/santaMonga.jpg" style="width: 100%; border: solid 1px black"alt="">
+              <div class="textoModal" text-align='center'>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Salvar mudanças</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 </body>
 

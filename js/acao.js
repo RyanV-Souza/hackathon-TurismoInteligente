@@ -1,3 +1,3 @@
-$(document).on("click", "#santa1", function(){
-
+$(document).on("click", ".mongaSanta", function(){
+  $('#modalSanta').modal('show');
 })
