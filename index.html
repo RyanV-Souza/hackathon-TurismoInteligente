@@ -285,7 +285,10 @@
 
       </div>
       <div class="mato2">
-
+          <div class="botoes">
+              <button type="button" name="button" id="botao1">Serviços</button>
+              <button type="button" name="button" id="botao2">Eventos</button>
+          </div>
       </div>
       <div class="avenidaPart1">
 
@@ -507,46 +510,50 @@
     </div>
     <script>
     var feirinha = $('.feirinha').show();
-    var contador = false;
+    var contador = 0;
 
   function movimentoSanta() {
-    var rua1 = document.getElementById("rua1");
-    var rua2 = document.getElementById("rua2");
-    var height = 0;
-    var id = setInterval(frame, 10);
-    function frame() {
-      if (height >= 100) {
-        $('.plataformaPesca').css('background-color', 'lightgreen');
-        $('.pescaPlat').show();
-        clearInterval(id);
+      var rua1 = document.getElementById("rua1");
+      var rua2 = document.getElementById("rua2");
+      var height = 0;
+      var id = setInterval(frame, 10);
+      function frame() {
+        if (height >= 100) {
+          setTimeout(modalSanta, 500);
+          $('.plataformaPesca').css('background-color', 'lightgreen');
+          $('.pescaPlat').show();
+          clearInterval(id);
 
 
-      } else {
-        height++;
-        if(contador == false){
-          rua1.style.background = 'red';
-          rua1.style.height = height + '%';
+        } else {
+          height++;
+            rua1.style.background = 'red';
+            rua1.style.height = height + '%';
+
         }
       }
-    }
+
   }
 
+  function modalSanta(){
+      $('#modalSanta').modal('show');
+  }
   function movimentoPlataformaPesca() {
+      setTimeout(Rua2, 500);
+      setTimeout(Rua3, 1000);
+      setTimeout(Rua5, 1500);
+      setTimeout(Rua6, 2000);
+      setTimeout(Rua7, 2500);
+      setTimeout(Rua8, 3000);
+      setTimeout(Rua9, 3500);
+      setTimeout(Rua10, 4000);
+      setTimeout(Rua11, 4500);
+      setTimeout(Rua12, 5000);
+      setTimeout(Rua13, 5500);
+      setTimeout(Rua14, 6000);
+      setTimeout(Rua15, 6500);
+      setTimeout(Feirinha, 7000);
 
-    setTimeout(Rua2, 500);
-    setTimeout(Rua3, 1000);
-    setTimeout(Rua5, 1500);
-    setTimeout(Rua6, 2000);
-    setTimeout(Rua7, 2500);
-    setTimeout(Rua8, 3000);
-    setTimeout(Rua9, 3500);
-    setTimeout(Rua10, 4000);
-    setTimeout(Rua11, 4500);
-    setTimeout(Rua12, 5000);
-    setTimeout(Rua13, 5500);
-    setTimeout(Rua14, 6000);
-    setTimeout(Rua15, 6500);
-    setTimeout(Feirinha, 7000);
 
   function Rua2(){
     var rua2 = document.getElementById("rua2");
@@ -564,7 +571,12 @@
     }
   }
 
+  function modalPlataforma(){
+    $("#modalPlataforma").modal('show');
+  }
+
   function Feirinha (){
+    setTimeout(modalPlataforma, 500);
     $('.feirinha').show();
     $('.pracinha').css('background-color', 'lightgreen');
   }
@@ -791,7 +803,12 @@ function movimentoFeirinha(){
     }
   }
 
+  function modalFeirinha(){
+    $("#modalFeirinha").modal('show');
+  }
+
   function PocoAnta1(){
+    setTimeout(modalFeirinha, 500);
     $('.pocoAnta').show();
     $('.pocoDasAntas').css('background-color', 'lightgreen');
   }
@@ -952,6 +969,7 @@ function movimentoPoco(){
   setTimeout(Rua33, 3500);
   setTimeout(Rua34, 4000);
   setTimeout(Rua35, 4500);
+  setTimeout(modalPoco, 5000);
 
 
   function Rua27(){
@@ -970,6 +988,9 @@ function movimentoPoco(){
     }
   }
 
+  function modalPoco(){
+    $("#modalPoco").modal('show');
+  }
   function Rua28(){
     var rua5 = document.getElementById("rua28");
     var height = 0;
@@ -1129,17 +1150,94 @@ function movimentoPoco(){
           <div class="modal-body">
               <img src="img/santaMonga.jpg" style="width: 100%; border: solid 1px black"alt="">
               <div class="textoModal" text-align='center'>
-                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                  <span> Com mais de 15 metros de altura e cerca de 2,5 toneladas, instalada numa linda trilha urbana feita em uma passarela de madeira com 150 metros de extensão. São 139 degraus em meio a mata nativa. Pode-se avistar pássaros silvestres e no deck com 30 metros acima do chão, ter uma visão privilegiada e deslumbrante da região. Aos pés da santa, está localizado o Skate Park, local para a prática de Skate, Patins e outros esportes.
+
+                          <br><b>FUNCIONAMENTO:</b></br>
+                        <br>  De  segunda à domingo , das 8h00 às 22h00.</br>
+
+                        <br>  LOCAL:  Av Marina s/n – Centro. </br></span>
               </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-primary">Salvar mudanças</button>
+            <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Fechar</button>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="modal fade" id="modalPlataforma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; font-family: 'Bebas'; font-size: 24px">Plataforma de Pesca</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img src="img/plataformaMonga.jpg" style="width: 100%; border: solid 1px black"alt="">
+              <div class="textoModal" text-align='center'>
+                  <span>Visitada por inúmeros turistas e munícipes, o local é um dos cenários mais bonitos e encantadores do Brasil. Instalada na cidade em 1977, é a maior plataforma pesqueira em estrutura de concreto armado avançando 400 metros mar adentro formando um “T” e se lançando 86m para cada um dos lados. Na entrada há sanitários.
+                    <br><b>FUNCIONAMENTO:</b> De segunda a domingo (24 horas)</br>
+                    <br><b>ENTRADA:</b> Os ingressos custam R$ 5, sendo que pessoas acima de 60 anos pagam R$ 2,50 e crianças de 3 a 10 anos, R$ 3.</br>
+                    <br><b>LOCAL:</b> Avenida Governador Mário Covas Júnior, 10.181, Balneário Plataforma.</br>
+                  </span>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalFeirinha" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; font-family: 'Bebas'; font-size: 24px">Feira de Artesanato</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img src="img/feirinhaMonga.jpg" style="width: 100%; border: solid 1px black"alt="">
+              <div class="textoModal" text-align='center'>
+                  <span> Um sofisticado complexo de 98 quiosques com arquitetura própria de madeira maciça e tijolos aparentes. Ótimo local para compras de artesanatos locais.<br><br>
+                          <b>LOCAL:</b>  Rua 07 de dezembro, s/n – Próximo à Pça Jacoub Koukdjian. </span>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalPoco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; font-family: 'Bebas'; font-size: 24px">Poço das Antas</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img src="img/pocoAnta.jpg" style="width: 100%; border: solid 1px black"alt="">
+              <div class="textoModal" text-align='center'>
+                  <span>É uma das principais atrações de Mongaguá, um dos pontos turísticos mais visitados, sendo um local muito procurado pelos turistas e moradores. Constitui-se de uma queda-d’água que forma uma cachoeira, terminando com uma piscina de água natural. Trata-se de um recanto ecológico abençoado pela mãe natureza que dispõe de uma boa infra-estrutura, com banheiro, pontes com corrimão, lanchonetes, guarita e um amplo estacionamento. Excelente lugar para banho e piquenique e para quem pretende se aventurar pelas trilhas morro acima, que levam até ás cachoeiras.<br>
+                    <br>FUNCIONAMENTO ESPECIAL – até 10 de março: das 9h00 às 18h00.
+                    <br>LOCAL:  Rua das Cascatas, s/nº, Bal. Pedreira.
+                    <br>ENTRADA: Os ingressos custam R$ 4 por pessoa, R$ 4 por moto e R$ 20 por carro com capacidade para até 5 pessoas. Nos veículos com maior capacidade, será cobrado o valor individual de acordo com a quantidade de pessoas no veículo.</span>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>

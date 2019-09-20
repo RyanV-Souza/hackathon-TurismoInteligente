@@ -1,3 +1,21 @@
-$(document).on("click", ".mongaSanta", function(){
-  $('#modalSanta').modal('show');
+$(document).on("click", "#botao1", function(){
+
+  $(location).attr('href', 'servico.html')
+})
+
+$(document).on("click", "#botao2", function(){
+
+  $(location).attr('href', 'eventos.html')
+})
+
+$(document).on("click", ".nav1", function(){
+  $(location).attr('href', 'index.html')
+})
+
+$(document).on("click", ".nav2", function(){
+  $(location).attr('href', 'servico.html')
+})
+
+$(document).on("click", ".nav3", function(){
+  $(location).attr('href', 'eventos.html')
 })
