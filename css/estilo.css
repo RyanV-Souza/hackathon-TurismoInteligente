@@ -1,0 +1,50 @@
+*{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color: rgb(127, 179, 213);
+  width: 50vh;
+  height: 7vh;
+  display: inline-flex;
+  border-radius: 5vh;
+  position: fixed;
+  left: 75vh;
+  top: 10vh;
+  font-family: 'BebasNeue';
+}
+
+.nav1{
+  width: 33%;
+  height: 100%;
+  margin: 0;
+  border-top-left-radius: 3.5vh;
+  border-bottom-left-radius: 3.5vh;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.nav2{
+  width: 33%;
+  height: 100%;
+  padding-top: 2vh;
+  margin: 0;
+  text-align: center;
+}
+
+.nav3{
+  width: 34%;
+  height: 100%;
+  margin: 0;
+  padding-top: 2vh;
+  border-top-right-radius: 3.5vh;
+  border-bottom-right-radius: 3.5vh;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../font/BebasNeue-Regular.ttf');
+}
