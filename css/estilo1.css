@@ -13,6 +13,7 @@
   top: 0;
   font-family: 'BebasNeue';
   color: rgb(205, 205, 205);
+  overflow: hidden;
 
 }
 .escrita{
@@ -130,6 +131,19 @@ span{
 
 }
 
+.conteudo5{
+  position: static;
+  width: 45%;
+  height: 90%;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 1.5vh;
+  margin-left: 5vh;
+  padding-top: 1%;
+  text-align:center;
+  font-family: 'BebasNeue';
+
+}
+
 .texto11{
   height: 79%;
   width: 100%;
@@ -147,6 +161,20 @@ span{
 }
 
 .conteudo2{
+  position: static;
+  width: 45%;
+  height: 90%;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 98vh;
+  margin-top: -47vh;
+  padding-top: 1%;
+  text-align:center;
+  font-family: 'BebasNeue';
+
+
+}
+
+.conteudo6{
   position: static;
   width: 45%;
   height: 90%;
@@ -189,6 +217,30 @@ span{
 
 }
 
+.conteudo7{
+  padding-top: 1%;
+  position: static;
+  width: 45%;
+  height: 90%;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 1.5vh;
+  margin-left: 50vh;
+  text-align:center;
+  font-family: 'BebasNeue';
+
+}
+
+.conteudo4{
+  padding-top: 1%;
+  position: static;
+  width: 45%;
+  height: 90%;
+  background: rgba(255, 255, 255, 1);
+  margin-top: -25%;
+  margin-left: 52%;
+  text-align:center;
+  font-family: 'BebasNeue';
+}
 .posicaoTexto3{
   height: 50%;
   width: 90%;
